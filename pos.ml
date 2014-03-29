@@ -8,3 +8,5 @@ let y (_, y) = y
 
 let to_string (x, y) =
   Printf.sprintf "(%d,%d)" x y
+
+let to_tuple (x, y) = (x, y)

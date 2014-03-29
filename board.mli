@@ -19,3 +19,6 @@ val put_and_reverse : t -> Pos.t -> Disk.t -> t
 val pos_list : t -> Disk.t -> Pos.t list
 
 val count_disk : t -> Disk.t -> int
+
+val fold : init:'acc -> f:('acc -> Pos.t -> 'acc) -> 'acc
+

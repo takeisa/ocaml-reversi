@@ -150,8 +150,28 @@ let board_test1 =
    "X X X X X X X  ";
    "X     X   X X X";]
 
-let init0 () =
-  let board = from_string_list board_test1 in
+let board_test2 = 
+  ["O O O O O O O O";
+   "X X X X X X X X";
+   "X X O O O X X O";
+   "X X X X O O X O";
+   "X O O X O O O  ";
+   "X O X O O O O O";
+   "X O O X X O X  ";
+   "X O X X X X X X";]
+
+let board_test3 = 
+  ["O X X X X X X X";
+   "X X X X X X X X";
+   "X X O O X O O X";
+   "X X X O O O O X";
+   "X O X X O O O X";
+   "X O O O O O O X";
+   "X O O X O O O  ";
+   "X O O O O O O  ";]
+
+let init_for_test () =
+  let board = from_string_list board_test3 in
   board
 
 let init () =
