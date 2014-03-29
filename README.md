@@ -3,7 +3,7 @@ ocaml-reversi
 
 Reversi game that was created by using the OCaml.
 
-I have been using min max algorithm to thinking of the computer algorithm. 
+I have been using minimax algorithm to thinking of the computer algorithm. 
 But, the evaluation function of the board is very irresponsible.
 
 ## Sample terminal output ##
