@@ -1,8 +1,17 @@
 *~
 *.cmi
 *.cmx
+*.a
 *.o
 *.omc
 *.log
 *.opt
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.o
+*.cmx
+*.cmxs
+*.cmxa
 .omakedb*
