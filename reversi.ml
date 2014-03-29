@@ -131,7 +131,6 @@ let can_put_disk board disk =
 (* val can_put : board -> bool *)
 let can_put board =
   List.fold ~init:false ~f:(fun acc disk ->
-      printf "acc=%s\n" (if acc then "true" else "false");
       acc || can_put_disk board disk)
     [Disk.Black; Disk.White]
 
